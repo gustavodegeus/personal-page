@@ -5,7 +5,4 @@ angular.module("personalPageApp").controller("techSkillsCtrl", function ($scope)
 		rating: 5	
 	}];
 	
-	
-	
-	console.log($scope.$id);
-})
+});
