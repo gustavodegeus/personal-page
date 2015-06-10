@@ -105,7 +105,7 @@
 		</section>
 		<!-- About Me end -->
 		<!-- Skills start -->
-		<section class="pfblock pfblock-gray" id="skills" ng-controller="techSkillsCtrl">
+		<section class="pfblock pfblock-gray" id="skills">
 			<div class="container">
 				<div class="row skills">
 					<div class="row">
@@ -124,13 +124,13 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<ui-tech-skills></ui-tech-skills>	
-																	
-								</ul>
+									<ui-tech-skills name="Java" rating="5"></ui-tech-skills>
+									<ui-tech-skills name="Java Script" rating="4"></ui-tech-skills>
+								</ul>																										
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-																		
+									<ui-tech-skills name="Flex" rating="4"></ui-tech-skills>
 								</ul>
 							</div>
 						</div>
@@ -144,50 +144,14 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">Enterprise Java Beans (EJB)</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Spring MVC</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
+									<ui-tech-skills name="Enterprise Java Beans (EJB)" rating="5"></ui-tech-skills>
+									<ui-tech-skills name="Spring MVC" rating="5"></ui-tech-skills>									
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">Spring Batch</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-											<span class="glyphicon glyphicon-star "></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">JPA (Hibernate and Eclipselink)</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-											<span class="glyphicon glyphicon-star "></span>
-											<span class="glyphicon glyphicon-star "></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
+									<ui-tech-skills name="Spring Batch" rating="4"></ui-tech-skills>
+									<ui-tech-skills name="JPA (Hibernate and Eclipselink)" rating="4"></ui-tech-skills>									
 								</ul>
 							</div>
 						</div>
@@ -196,90 +160,18 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">AngularJS</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Java Server Faces (JSF)</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Java Server Pages (JSP)</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Thymeleaf</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>								
+									<ui-tech-skills name="AngularJS" rating="3"></ui-tech-skills>
+									<ui-tech-skills name="Java Server Faces (JSF)" rating="3"></ui-tech-skills>
+									<ui-tech-skills name="Java Server Pages (JSP)" rating="5"></ui-tech-skills>
+									<ui-tech-skills name="Thymeleaf" rating="2"></ui-tech-skills>																	
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">JQuery</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">AJAX</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Bootstrap</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Yeoman</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>									
+									<ui-tech-skills name="JQuery" rating="4"></ui-tech-skills>
+									<ui-tech-skills name="AJAX" rating="4"></ui-tech-skills>
+									<ui-tech-skills name="Bootstrap" rating="4"></ui-tech-skills>
+									<ui-tech-skills name="Yeoman" rating="3"></ui-tech-skills>																		
 								</ul>
 							</div>
 						</div>
@@ -288,40 +180,13 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">REST</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">SOAP</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>												
+									<ui-tech-skills name="REST" rating="5"></ui-tech-skills>
+									<ui-tech-skills name="SOAP" rating="4"></ui-tech-skills>																					
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">Oracle SOA Suite (OSB and BPM)</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>																	
+									<ui-tech-skills name="Oracle SOA Suite (OSB and BPM)" rating="2"></ui-tech-skills>																										
 								</ul>
 							</div>
 						</div>
@@ -329,50 +194,14 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">Oracle</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">MySQL</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>												
+									<ui-tech-skills name="Oracle" rating="4"></ui-tech-skills>
+									<ui-tech-skills name="MySQL" rating="4"></ui-tech-skills>																					
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">PostgreSQL</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>																								
-									<li>
-										<span class="ability-title">MongoDB</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>																	
+									<ui-tech-skills name="PostgreSQL" rating="3"></ui-tech-skills>
+									<ui-tech-skills name="MongoDB" rating="3"></ui-tech-skills>																		
 								</ul>
 							</div>
 						</div>
@@ -380,50 +209,14 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">GIT</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">SVN</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>												
+									<ui-tech-skills name="GIT" rating="4"></ui-tech-skills>
+									<ui-tech-skills name="SVN" rating="5"></ui-tech-skills>											
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">CVS</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">IBM Rational Team Concert</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>																	
+									<ui-tech-skills name="CVS" rating="3"></ui-tech-skills>
+									<ui-tech-skills name="IBM Rational Team Concert" rating="5"></ui-tech-skills>																	
 								</ul>
 							</div>
 						</div>
@@ -431,60 +224,15 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">JUnit</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Mockito</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Selenium Web Driver</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>												
+									<ui-tech-skills name="JUnit" rating="5"></ui-tech-skills>
+									<ui-tech-skills name="Mockito" rating="5"></ui-tech-skills>
+									<ui-tech-skills name="Selenium Web Driver" rating="2"></ui-tech-skills>																					
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">DBUnit</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Sonar</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>																	
+									<ui-tech-skills name="DBUnit" rating="3"></ui-tech-skills>
+									<ui-tech-skills name="Sonar" rating="3"></ui-tech-skills>															
 								</ul>
 							</div>
 						</div>
@@ -492,50 +240,14 @@
 						<div class="row">
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">JBoss</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Weblogic</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-										</span>
-									</li>												
+									<ui-tech-skills name="JBoss" rating="4"></ui-tech-skills>
+									<ui-tech-skills name="Weblogic" rating="4"></ui-tech-skills>																			
 								</ul>
 							</div>
 							<div class="col-md-6">
 								<ul class="no-bullets">
-									<li>
-										<span class="ability-title">Websphere</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>
-									<li>
-										<span class="ability-title">Tomcat</span>
-										<span class="ability-score">
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star filled"></span>
-											<span class="glyphicon glyphicon-star "></span>
-										</span>
-									</li>																	
+									<ui-tech-skills name="Websphere" rating="3"></ui-tech-skills>
+									<ui-tech-skills name="Tomcat" rating="4"></ui-tech-skills>																										
 								</ul>
 							</div>
 						</div>
@@ -738,9 +450,7 @@
 		<script src="assets/js/custom.js"></script>
 			
 		<script src="assets/js/app/app.js"></script>
-		<script src="assets/js/app/controllers/techSkillsCtrl.js"></script>
-		<script src="assets/js/app/directives/techSkillsDirective.js"></script>
-			
+		<script src="assets/js/app/directives/techSkillsDirective.js"></script>			
 	</body>
 
 </html>

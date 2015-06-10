@@ -1,10 +1,6 @@
 <li>
-	<span class="ability-title">Java</span>
-	<span class="ability-score">
-		<span class="glyphicon glyphicon-star filled"></span>
-		<span class="glyphicon glyphicon-star filled"></span>
-		<span class="glyphicon glyphicon-star filled"></span>
-		<span class="glyphicon glyphicon-star filled"></span>
-		<span class="glyphicon glyphicon-star filled"></span>
+	<span class="ability-title">{{name}}</span>
+	<span class="ability-score" ng-repeat="ratingClass in ratingClasses track by $index">
+		<span class="glyphicon glyphicon-star {{ratingClass}}"></span>
 	</span>
 </li>
