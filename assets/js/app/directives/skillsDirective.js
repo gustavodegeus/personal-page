@@ -1,6 +1,6 @@
-angular.module("personalPageApp").directive("uiTechSkills", function () {
+angular.module("personalPageApp").directive("uiSkills", function () {
 	return{
-		templateUrl: "view/tech-skills.html",
+		templateUrl: "views/skills.html",
 		replace: true,
 		scope: {
 			name:"@",
