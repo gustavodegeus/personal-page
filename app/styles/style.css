@@ -481,19 +481,24 @@ textarea.form-control {
 
 .social-links {
 	list-style: none;
-	padding: 0;
 	margin: 0 0 20px;
 }
 
 .social-links li {
-	display: inline-block;
+	display: list-item;
 	margin: 5px;
+	padding: 0.5em 1em;
+	float: left;
+	list-style: none;
+}
+
+.social-links a span { 
+	margin-right: 20px; 
 }
 
 .social-links a {
 	width: 36px;
 	height: 36px;
-	display: block;
 	line-height: 35px;
 	text-align: center;
 	border: 1px solid rgba(255, 255, 255, .1);
@@ -501,12 +506,12 @@ textarea.form-control {
 	   -moz-border-radius: 3px;
 			border-radius: 3px;
 	font-size: 14px;
-	color: rgba(255, 255, 255, .2);
+	
 }
 
 .social-links a:hover {
 	border: 1px solid rgba(255, 255, 255, .5);
-	color: rgba(255, 255, 255, .8);
+	
 }
 
 /* ---------------------------------------------- /*
