@@ -1,0 +1,5 @@
+.settings
+.git
+/node_modules
+/modules
+/typings
