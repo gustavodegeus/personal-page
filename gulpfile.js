@@ -28,15 +28,14 @@ gulp.task('clean', function() {
 });
 
 gulp.task('app', function () {
-  return gulp.src(['app/**', '!app/{typings,typings/**}'])
+  return gulp.src(['app/**', '!app/{typings,typings/**}', 'CNAME'])
     .pipe(gulp.dest(bases.dist));
 });
-
 
 gulp.task('modules', function () {
   return gulp.src('modules/**')
     .pipe(gulp.dest('dist/modules'));
 });
 
-gulp.task('dist', ['clean', 'app', 'modules']);
+gulp.task('dist', ['app', 'modules']);
 
