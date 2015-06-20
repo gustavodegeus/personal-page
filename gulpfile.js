@@ -5,6 +5,7 @@ var browserSync = require('browser-sync');
 var bases = {
   app: 'app/',
   dist: 'dist/',
+  distModules: 'dist/modules'
 };
 var reload = browserSync.reload;
 
@@ -34,7 +35,7 @@ gulp.task('app', function () {
 
 gulp.task('modules', function () {
   return gulp.src('modules/**')
-    .pipe(gulp.dest('dist/modules'));
+    .pipe(gulp.dest(bases.distModules));
 });
 
 gulp.task('dist', ['app', 'modules']);
