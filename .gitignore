@@ -1,5 +1,6 @@
 .settings
 .git
+.publish
 /node_modules
 /modules
 /typings
