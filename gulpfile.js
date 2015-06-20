@@ -1,5 +1,6 @@
 var gulp = require('gulp');
 var clean = require('gulp-clean');
+var ghPages = require('gulp-gh-pages');
 var browserSync = require('browser-sync');
 
 var bases = {
@@ -39,4 +40,9 @@ gulp.task('modules', function () {
 });
 
 gulp.task('dist', ['app', 'modules']);
+
+gulp.task('deploy', function() {
+  return gulp.src('./dist/**/*')
+    .pipe(ghPages());
+});
 
