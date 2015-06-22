@@ -89,7 +89,7 @@
 		<!-- Navigation end -->
 		<!-- About Me start -->
 		<section id="about-me" class="pfblock pfblock">
-			<div class="container">
+			<div class="container" ng-controller="aboutMeCtrl">
 				<div class="row">
 					<div class="col-sm">
 						<div class="pfblock-header wow fadeInUp">
@@ -107,26 +107,9 @@
 									<p class="text-left">
 										<strong>Bio:</strong>
 									</p>
-									<p class="text-left">Brazilian, born in Ponta Grossa-PR, I moved to Florianopolis-SC with 10 years. There I grew up and had a wonderful time
-										in my life.</p>
-									<p class="text-left">At 15 I remember my chosen profession, I wanted to work with information technology! My parents had an old 486 and I spent
-										hours trying to find something to do with that hindrance, even without the help of internet.</p>
-									<p class="text-left">Before work I've always been a fan of technology, video games, computers and smart devices always caught my attention.</p>
-									<p
-									class="text-left">When the time came to choose the college course I did not have many problems and I chose to make Information Systems at
-										UFSC. In college I came only with my "knowledge" as User and I had much difficulty in the first half to understand how it
-										all worked. One topic that caught my attention was the "Software Development". The history of some code lines turn into something
-										that could help people fascinated me from the start.</p>
-										<p class="text-left">As my course was evening, I had the privilege to work since the first months of college, starting on the support and finally
-											as a programmer in 2010. Since then I work exclusively with software development, undergoing various types of companies and
-											working with various types of pro</p>
-										<p class="text-left">After a few years working exclusively with Java language giving more focus to the backend, I began to study by myself frameworks
-											and languages ​​that could give me greater autonomy during the development cycle. I started studying and developing some
-											projects using Adobe Flex and in the last two years I started to study more deeply Java Script language and the main frameworks
-											for development in that language.</p>
-										<p class="text-left">How to claim for the future, I pretend to use all the knowledge acquired during the years to become a Solutions Architect
-											and can help businesses find which technologies may be more fitting to the problems they are proposed to solve.</p>
-										<p class="text-left">PS. In the photo, me, my wife Sarah and our dog Taurus! :)</p>
+									<div ng-repeat="bioParagaph in bioParagraphs">										
+										<p class="text-left">{{bioParagaph}}</p>	
+									</div>									
 								</center>
 							</div>
 						</div>
@@ -410,7 +393,8 @@
 		<script src="scripts/custom.js"></script>
 		<script src="scripts/app.js"></script>
 		<script src="scripts/directives/skillsDirective.js"></script>
-		<script src="scripts/directives/projectsDirective.js"></script>		
+		<script src="scripts/directives/projectsDirective.js"></script>
+		<script src="scripts/controllers/aboutMeCtrl.js"></script>		
 		<!-- endbuild -->
 	</body>
 
