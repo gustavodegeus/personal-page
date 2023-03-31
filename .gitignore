@@ -1,5 +1,5 @@
-.settings
-.git
-.publish
-node_modules
-typings
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
