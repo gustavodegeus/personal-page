@@ -9,4 +9,4 @@ I'm trying out [Jekll](https://jekyllrb.com/) and nothing better to understand t
 
 So that is it. I probably won't be writing a lot here but I need at least a "Hello World" to get things rolling!
 
-Peace!
+Peace!✌🏼
